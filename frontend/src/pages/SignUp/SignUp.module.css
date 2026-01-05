@@ -1,0 +1,29 @@
+/* Login.module.css */
+.page {
+  background-color: rgb(48, 46, 43); /* Dark background */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  padding: 3rem; /* More padding inside the card */
+  border-radius: 12px; /* Rounded edges */
+  display: flex;
+  flex-direction: column; /* Stack title + form vertically */
+  align-items: center; /* Center horizontally */
+  width: 100%;
+  max-width: 420px; /* Limit max width */
+}
+
+
+.title {
+  font-size: 2rem; /* Big text */
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem; /* Space between title and form */
+  text-align: center;
+}
+

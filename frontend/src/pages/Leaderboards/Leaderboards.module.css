@@ -1,0 +1,59 @@
+.page {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.crown {
+  width: 32px;
+  height: 32px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Toggle styles */
+.toggle {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.toggleButton {
+  background: #2a2a2a;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #aaa;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggleButton:hover {
+  background: #3a3a3a;
+  color: #fff;
+}
+
+.active {
+  background: #171717;
+  color: white;
+  font-weight: bold;
+}

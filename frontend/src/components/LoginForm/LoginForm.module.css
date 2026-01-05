@@ -1,0 +1,191 @@
+/* Card container */
+.container {
+  background-color: #262522;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Group for input + error */
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+/* Input wrapper */
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #3c3b37;
+  padding: 0 0.5rem;
+}
+
+.userIcon {
+  width: 14px;
+  height: 14px;
+  margin-right: 0.5rem;
+  opacity: 0.6;
+  cursor: text;
+}
+
+.lockIcon {
+  width: 25px;
+  height: 25px;
+  cursor: text;
+  margin-right: 0.2rem;
+  margin-left: -3px;
+  opacity: 0.6;
+}
+
+.eyeIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  opacity: 0.6;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0.75rem 0;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+/* Error messages */
+.error {
+  color: red;
+  font-size: 0.85rem;
+  min-height: 1rem; /* reserve space so fields don’t shift */
+  margin: 0.2rem 0 0 0.5rem;
+}
+
+.errorGlobal {
+  color: red;
+  font-size: 0.9rem;
+  min-height: 1.2rem; /* reserve space */
+  margin: 0 0 0.8rem 0;
+  text-align: center;
+}
+
+/* Submit button */
+.submit {
+  background-color: #81b64c;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #76a843;
+}
+
+/* Remember + Forgot Password */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.forgotButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #81b64c;
+  cursor: pointer;
+}
+.forgotButton:hover {
+  text-decoration: underline;
+}
+
+/* Divider "OR" */
+.orSeparator {
+  display: flex;
+  align-items: center;
+  margin: 1.2rem 0;
+}
+.orSeparator span {
+  flex-grow: 1;
+  height: 1px;
+  background: #444;
+}
+.orSeparator p {
+  margin: 0 0.5rem;
+  color: #999;
+  font-size: 0.85rem;
+}
+
+/* Social buttons */
+.socialBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3c3b37;
+  border: none;
+  color: white;
+  padding: 0.6rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.socialBtn:hover {
+  background-color: #333;
+}
+.socialBtn img {
+  width: 18px;
+  height: 18px;
+  margin-right: 0.5rem;
+}
+
+/* Footer signup */
+.signup {
+  text-align: center;
+  margin-top: auto;
+  font-size: 0.85rem;
+  background: #1d1c19;
+  padding: 1rem;
+  color: #ccc;
+}
+.signupButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #81b64c;
+  font-weight: bold;
+  cursor: pointer;
+}
+.signupButton:hover {
+  text-decoration: underline;
+}

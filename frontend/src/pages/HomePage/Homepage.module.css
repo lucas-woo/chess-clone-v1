@@ -1,0 +1,24 @@
+.boardContainer {
+  display: flex;
+  justify-content: flex-start; /* Align to the left */
+  align-items: flex-start;     /* Align to the top */
+  height: 100%;
+  padding: 2rem;
+}
+
+.chessBoard {
+  width: 500px;
+  height: auto;
+  position: relative;
+  margin-left: 30px; 
+  top: 30px;              /* move upwards if needed */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+
+.chessBoard:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+

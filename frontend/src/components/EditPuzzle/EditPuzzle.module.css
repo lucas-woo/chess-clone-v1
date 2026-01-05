@@ -1,0 +1,49 @@
+.container {
+  margin-top: 3rem; /* pushes it down */
+  display: flex;
+  flex-direction: column;
+  gap: 5rem; /* spacing between sections */
+  max-width: 300px;
+  font-size: 20px;
+}
+
+.submitButton{
+  padding: 0.5rem 1rem;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.submittedButton {
+  padding: 0.5rem 1rem;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addButton {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  background-color: chartreuse;
+  margin-right: 15px;
+}
+
+.removeButton {
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  background-color: red;
+  margin-right: 15px;
+}
+
+.showError {
+  color: red;
+}

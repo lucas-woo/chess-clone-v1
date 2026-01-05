@@ -1,0 +1,18 @@
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.board {
+  position: absolute;
+  top: 5%;      /* was 30px */
+  left: 15%;    /* was 200px */
+}
+
+.menu {
+  position: absolute;
+  top: 5%;
+  left: 65%;    /* was 850px */
+  width: 25%;   /* was 400px */
+  height: 76%;  /* was 640px */
+}

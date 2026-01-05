@@ -1,0 +1,81 @@
+.navbar {
+  height: 100vh;
+  width: 170px; 
+  background-color: rgb(39,37,34);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: fixed; /* Stick to the side */
+  top: 0;
+  left: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  display: block;       /* Makes the entire area inside <li> clickable */
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+}
+
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 50px;            
+  width: 100%;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.nav-links li:hover {
+  background-color: #1f1d1b;  /* slightly darker background */
+}
+
+.authButtons {
+  margin-top: auto;  /* Pushes buttons to the bottom of the navbar */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.loginButton {
+  background-color: rgb(60,59,57);
+  color: white;
+  border: 1px solid ;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.loginButton:hover {
+  background-color: rgb(69, 67, 65);
+  color: white;
+}
+
+.registerButton {
+  background-color: rgb(140,180,90); /* greenish */
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.registerButton:hover {
+  background-color: rgb(164, 200, 107); /* darker green */
+}
