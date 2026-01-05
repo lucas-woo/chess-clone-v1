@@ -1,0 +1,59 @@
+.square {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greenSquare {
+  background-color: rgb(122, 148, 90)
+}
+
+.whiteSquare {
+  background-color: rgb(235, 236, 211)
+}
+
+.labelFile {
+  position: absolute;
+  bottom: 4px;
+  right: 6px;
+  font-size: 0.8rem;
+  color: #333;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
+}
+
+.labelRank {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  font-size: 0.8rem;
+  color: #333;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
+}
+
+.isCorrect {
+  position: absolute;
+  top: -12px; /* adjust as needed */
+  right: -12px; /* adjust as needed */
+  width: 30px; /* or whatever size you need */
+  height: 30px;
+  z-index: 10; /* make sure it overlaps other elements */
+  pointer-events: none; /* optional, depending on interaction */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
+}

@@ -1,0 +1,5 @@
+.container {
+  display: flex;
+  align-items: flex-start; /* Align items to top */
+  gap: 30px; /* Optional spacing between Board and Description */
+}

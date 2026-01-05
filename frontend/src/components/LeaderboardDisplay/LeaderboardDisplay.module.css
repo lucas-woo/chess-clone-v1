@@ -1,0 +1,105 @@
+.leaderboard {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e1e1e;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.userRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #523c04;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 12px;
+  
+}
+
+.rank {
+  font-weight: bold;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  color: #d0d0d0;
+}
+
+/* Rank backgrounds */
+.gold {
+  background-color: #ffd700;
+  font-weight: bold;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  color: black;
+}
+.silver {
+  font-weight: bold;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  color: black;
+  background-color: #c0c0c0;
+}
+.bronze {
+  font-weight: bold;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  color: black;
+  background-color: #cd7f32;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 12px;
+}
+
+.username {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 14px;
+  color: #d0d0d0;
+  margin-left: 12px;
+}

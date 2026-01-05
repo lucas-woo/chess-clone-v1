@@ -1,0 +1,163 @@
+.container {
+  background-color: rgb(38,37,34);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  font-family: sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Pushes this section to the bottom */
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: auto;
+  width: 100%;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: #bbb;
+  font-size: 1rem;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+}
+
+.tab:hover {
+  color: white;
+}
+
+.active {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+/* Puzzle Icon */
+.puzzleIcon {
+  width: 60px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Score Section */
+.scoreSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 1rem;
+}
+
+.scoreItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scoreLabel {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #bbb;
+  margin-bottom: 0.3rem;
+}
+
+.scoreValue {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Timer styled as a button */
+.timerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3937;
+  border-radius: 8px;
+  padding: 0.8rem 2rem;
+  margin-bottom: 2rem;
+  gap: 0.5rem;
+}
+
+.timerIcon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0.8);
+}
+
+.timerText {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ddd;
+}
+
+.lives {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.lifeBox {
+  width: 50px;
+  height: 50px;
+  background-color: #1e1e1e;
+  border: 2px solid #7ac943;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.signUpBtn {
+  background-color: #7ac943;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.signUpBtn:hover {
+  background-color: #6ab238;
+}
+
+
+.playButton {
+  background-color: #7ac943;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.playButton:hover {
+  background-color: #6ab238;
+}

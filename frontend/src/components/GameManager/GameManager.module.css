@@ -1,0 +1,151 @@
+.container {
+  background-color: rgb(38, 37, 34);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  font-family: sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.headerInGame {
+  justify-content: center; /* center turn box + text */
+  gap: 0.8rem;
+}
+
+.headerOutGame {
+  justify-content: flex-start; /* Go Back button on the left */
+}
+
+.turnBox {
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  border: 2px solid #888;
+  border-radius: 4px;
+}
+
+.headerText {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Go Back Button */
+.goBackButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+}
+
+.goBackButton:hover {
+  text-decoration: underline;
+}
+
+/* Pawn Icon */
+.pawnIcon {
+  width: 70px;
+  height: auto;
+  margin-bottom: 1.2rem;
+}
+
+/* Score */
+.score {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Timer */
+.timerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+  margin-left: -20px; /* adjust value until it looks right */
+}
+
+.timerIcon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0.8);
+}
+
+.timerText {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ddd;
+}
+
+/* Bottom Section */
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: auto;
+  width: 100%;
+}
+
+/* Lives / Strikes */
+.lives {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.lifeBox {
+  width: 50px;
+  height: 50px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct {
+  border: 2px solid #7ac943;
+}
+
+.wrong {
+  border: 2px solid #c94343;
+}
+
+.crossIcon {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+/* Quit Button */
+.quitButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.quitButton:hover {
+  text-decoration: underline;
+}
