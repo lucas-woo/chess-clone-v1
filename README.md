@@ -2,7 +2,6 @@ Env project setup:
 
 # Chess App
 
-
 ## Clone the Repository
 
 ```bash
